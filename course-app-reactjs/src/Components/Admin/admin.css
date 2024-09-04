@@ -59,8 +59,50 @@
 
 .crs-reg-form{
     width: 80vw;
-    height: 1000px;
+    height: auto;
     background-color: #dfdeee;
     border-radius: 10px;
     padding: 20px;
 }
+
+.crs-register-hd{
+    margin-left: 10px;
+}
+
+.rows{
+    width: auto;
+    height: 50px;
+    /* background-color: red; */
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.crs-dm-reg-inp{
+    width: 400px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.crs-dm-reg-file{
+    padding: 12px 72px;
+    background-color: transparent;
+    border:  1px solid #000;
+    border-radius: 10px;
+}
+
+.crs-adm-reg-sbt{
+    padding: 13px 173px;
+    background-color: rgb(17, 17, 165);
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
