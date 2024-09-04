@@ -14,22 +14,20 @@ export default class courseAdd extends Component {
                 Course Register
             </h1>
             <div className="rows">
-                <input type="text" placeholder='Enter Course Name....' />
-                <input type="text" placeholder='Enter Instructor Name....' />
+                <input className='crs-dm-reg-inp' type="text" placeholder='Enter Course Name....' />
+                <input className='crs-dm-reg-inp' type="text" placeholder='Enter Instructor Name....' />
+                <input className='crs-dm-reg-inp' type="text" placeholder='Enter Description Name....' />
             </div>
             <div className="rows">
-                <input type="text" placeholder='Enter Description Name....' />
-                <input type="file"/>
+                <input className='crs-dm-reg-file' type="file"/>
+                <input className='crs-dm-reg-inp' type="text" placeholder='Enter Duration....' />
+                <input className='crs-dm-reg-inp' type="text" placeholder='Enter Schedule....' />
             </div>
             <div className="rows">
-                <input type="text" placeholder='Enter Duration....' />
-                <input type="text" placeholder='Enter Schedule....' />
+                <input className='crs-dm-reg-inp' type="text" placeholder='Enter Location type....' />
+                <input className='crs-dm-reg-inp' type="text" placeholder='Enter prerequisites....' />
+                <button className='crs-adm-reg-sbt'>Register</button>
             </div>
-            <div className="rows">
-                <input type="text" placeholder='Enter Location type....' />
-                <input type="text" placeholder='Enter prerequisites....' />
-            </div>
-            <button>Register</button>
         </div>
       </div>
     )
